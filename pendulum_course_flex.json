@@ -7,22 +7,37 @@
     "header": {
       "type": "box",
       "layout": "horizontal",
-      "justifyContent": "center",
-      "paddingTop": "16px",
-      "paddingBottom": "4px",
+      "backgroundColor": "#7F77DD",
+      "paddingTop": "14px",
+      "paddingBottom": "14px",
+      "paddingStart": "18px",
+      "paddingEnd": "18px",
+      "alignItems": "center",
       "contents": [
+        {
+          "type": "text",
+          "text": "初級",
+          "color": "#FFFFFF",
+          "size": "xl",
+          "weight": "bold",
+          "flex": 1,
+          "gravity": "center"
+        },
         {
           "type": "box",
           "layout": "vertical",
-          "width": "72px",
-          "backgroundColor": "#7F77DD",
-          "cornerRadius": "20px",
-          "paddingAll": "6px",
+          "flex": 0,
+          "backgroundColor": "#FFFFFF",
+          "cornerRadius": "16px",
+          "paddingTop": "5px",
+          "paddingBottom": "5px",
+          "paddingStart": "16px",
+          "paddingEnd": "16px",
           "contents": [
             {
               "type": "text",
-              "text": "初級",
-              "color": "#FFFFFF",
+              "text": "beginner",
+              "color": "#534AB7",
               "size": "sm",
               "weight": "bold",
               "align": "center"
@@ -36,83 +51,95 @@
       "url": "https://www.j-dowsing.com/img/pendulum.jpg",
       "size": "full",
       "aspectRatio": "20:13",
-      "aspectMode": "fit"
+      "aspectMode": "cover"
     },
     "body": {
       "type": "box",
       "layout": "vertical",
-      "paddingTop": "8px",
-      "paddingBottom": "4px",
+      "paddingAll": "16px",
       "contents": [
         {
           "type": "text",
           "text": "ペンデュラム講座",
-          "size": "xl",
-          "weight": "bold",
-          "align": "center",
-          "color": "#222222"
+          "color": "#1F1B33",
+          "size": "lg",
+          "weight": "bold"
+        },
+        {
+          "type": "text",
+          "text": "ダウジングの基礎が学べる入門講座です。受講形式をお選びください。",
+          "color": "#6E6A7C",
+          "size": "sm",
+          "wrap": true,
+          "margin": "md"
         }
       ]
     },
     "footer": {
       "type": "box",
       "layout": "vertical",
-      "spacing": "sm",
-      "paddingAll": "16px",
+      "spacing": "none",
+      "paddingAll": "0px",
       "contents": [
         {
-          "type": "box",
-          "layout": "horizontal",
-          "spacing": "sm",
-          "contents": [
-            {
-              "type": "button",
-              "style": "secondary",
-              "height": "sm",
-              "action": {
-                "type": "uri",
-                "label": "通学",
-                "uri": "https://www.j-dowsing.com/e-learning/pendulum/seminar.html"
-              }
-            },
-            {
-              "type": "button",
-              "style": "secondary",
-              "height": "sm",
-              "action": {
-                "type": "uri",
-                "label": "オンデマンド",
-                "uri": "https://www.j-dowsing.com/e-learning/pendulum/ondemand.html"
-              }
-            }
-          ]
+          "type": "separator",
+          "color": "#ECEAF6"
         },
         {
-          "type": "box",
-          "layout": "horizontal",
-          "spacing": "sm",
-          "contents": [
-            {
-              "type": "button",
-              "style": "secondary",
-              "height": "sm",
-              "action": {
-                "type": "uri",
-                "label": "DVD",
-                "uri": "https://www.j-dowsing.com/e-learning/pendulum/dvd.html"
-              }
-            },
-            {
-              "type": "button",
-              "style": "secondary",
-              "height": "sm",
-              "action": {
-                "type": "uri",
-                "label": "ZOOM",
-                "uri": "https://www.j-dowsing.com/e-learning/pendulum/zoom.html"
-              }
-            }
-          ]
+          "type": "button",
+          "style": "link",
+          "color": "#534AB7",
+          "height": "sm",
+          "action": {
+            "type": "uri",
+            "label": "通学",
+            "uri": "https://www.j-dowsing.com/e-learning/pendulum/seminar.html"
+          }
+        },
+        {
+          "type": "separator",
+          "color": "#ECEAF6"
+        },
+        {
+          "type": "button",
+          "style": "link",
+          "color": "#534AB7",
+          "height": "sm",
+          "action": {
+            "type": "uri",
+            "label": "オンデマンド",
+            "uri": "https://www.j-dowsing.com/e-learning/pendulum/ondemand.html"
+          }
+        },
+        {
+          "type": "separator",
+          "color": "#ECEAF6"
+        },
+        {
+          "type": "button",
+          "style": "link",
+          "color": "#534AB7",
+          "height": "sm",
+          "action": {
+            "type": "uri",
+            "label": "DVD",
+            "uri": "https://www.j-dowsing.com/e-learning/pendulum/dvd.html"
+          }
+        },
+        {
+          "type": "separator",
+          "color": "#ECEAF6"
+        },
+        {
+          "type": "button",
+          "style": "link",
+          "color": "#534AB7",
+          "height": "sm",
+          "action": {
+            "type": "uri",
+            "label": "ZOOM",
+            "uri": "https://www.j-dowsing.com/e-learning/pendulum/zoom.html"
+          }
         }
       ]
     }
