@@ -1,15 +1,15 @@
 // LINE Messaging API Webhook
-// 「テスト」と送られたら pendulum_course_flex.json の Flex メッセージを返す
+// 「初級」「中級」「上級」「上級専門」と送られたら、各難易度の Flex メッセージを返す
+//（「テスト」は初級カードのエイリアスとして残してあります）
 //
 // 必要なもの:
 //   - Messaging API チャネル（LINE Developers コンソールで作成）
 //   - チャネルアクセストークン と チャネルシークレット
-//   - 公開された HTTPS の URL（Render / Railway / Cloud Run / Vercel など）
+//   - 公開された HTTPS の URL（Render など）
 //
 // セットアップ:
-//   npm init -y
 //   npm install express @line/bot-sdk
-//   （pendulum_course_flex.json をこのファイルと同じ場所に置く）
+//   この .js と 4つの *_flex.json を同じ場所に置く
 //   環境変数 LINE_CHANNEL_ACCESS_TOKEN と LINE_CHANNEL_SECRET を設定
 //   node line-webhook.js
 
@@ -26,15 +26,22 @@ const config = {
 const client = new line.Client(config);
 const app = express();
 
-// Flex メッセージ（{ type:"flex", altText, contents } の形のまま読み込む）
-const flexMessage = JSON.parse(
-  fs.readFileSync(path.join(__dirname, 'pendulum_course_flex.json'), 'utf8')
-);
+// JSONファイルを読み込むヘルパー
+function loadFlex(file) {
+  return JSON.parse(fs.readFileSync(path.join(__dirname, file), 'utf8'));
+}
 
-// 反応させるキーワード
-const TRIGGER_WORD = 'テスト';
+// キーワード → 返す Flex メッセージ の対応表
+const REPLIES = {
+  '初級': loadFlex('pendulum_beginner_flex.json'),
+  '中級': loadFlex('pendulum_intermediate_flex.json'),
+  '上級': loadFlex('pendulum_advanced_flex.json'),
+  '上級専門': loadFlex('pendulum_specialist_flex.json'),
+  // 動作確認用のエイリアス（不要なら削除可）
+  'テスト': loadFlex('pendulum_beginner_flex.json'),
+};
 
-// ヘルスチェック（UptimeRobot などからの定期pingでスリープ回避に使う）
+// ヘルスチェック（UptimeRobot などの定期pingでスリープ回避に使う）
 app.get('/', (req, res) => res.send('OK'));
 
 app.post('/webhook', line.middleware(config), (req, res) => {
@@ -47,14 +54,14 @@ app.post('/webhook', line.middleware(config), (req, res) => {
 });
 
 function handleEvent(event) {
-  if (
-    event.type === 'message' &&
-    event.message.type === 'text' &&
-    event.message.text.trim() === TRIGGER_WORD
-  ) {
-    return client.replyMessage(event.replyToken, flexMessage);
+  if (event.type === 'message' && event.message.type === 'text') {
+    const text = event.message.text.trim();
+    const reply = REPLIES[text];
+    if (reply) {
+      return client.replyMessage(event.replyToken, reply);
+    }
   }
-  // それ以外は何もしない
+  // 対応キーワード以外は何もしない
   return Promise.resolve(null);
 }
 
