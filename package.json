@@ -1,0 +1,13 @@
+{
+  "name": "line-pendulum-webhook",
+  "version": "1.0.0",
+  "description": "Reply with a Flex Message when a LINE user sends テスト",
+  "main": "line-webhook.js",
+  "scripts": {
+    "start": "node line-webhook.js"
+  },
+  "dependencies": {
+    "@line/bot-sdk": "^9.5.0",
+    "express": "^4.21.2"
+  }
+}
