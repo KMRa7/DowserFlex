@@ -48,7 +48,7 @@
     },
     "hero": {
       "type": "image",
-      "url": "https://www.j-dowsing.com/img/pendulum.jpg",
+      "url": "https://raw.githubusercontent.com/KMRa7/DowserFlex/main/img/ペンデュラム講座【中級】.png",
       "size": "full",
       "aspectRatio": "20:13",
       "aspectMode": "cover"
