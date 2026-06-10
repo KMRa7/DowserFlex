@@ -48,10 +48,10 @@
     },
     "hero": {
       "type": "image",
-      "url": "https://raw.githubusercontent.com/KMRa7/DowserFlex/main/img/ペンデュラム講座【中級】.png",
+      "url": "https://cdn.jsdelivr.net/gh/KMRa7/DowserFlex@main/img/ペンデュラム講座【中級】.png",
       "size": "full",
-      "aspectRatio": "20:13",
-      "aspectMode": "cover"
+      "aspectRatio": "16:9",
+      "aspectMode": "fit"
     },
     "body": {
       "type": "box",
@@ -93,7 +93,7 @@
           "action": {
             "type": "uri",
             "label": "通学",
-            "uri": "https://www.j-dowsing.com/REPLACE-中級-通学"
+            "uri": "https://www.j-dowsing.com/e-learning/pendulum/seminar.html"
           }
         },
         {
@@ -108,7 +108,7 @@
           "action": {
             "type": "uri",
             "label": "オンデマンド",
-            "uri": "https://www.j-dowsing.com/REPLACE-中級-オンデマンド"
+            "uri": "https://www.j-dowsing.com/e-learning/pendulum/ondemand.html"
           }
         },
         {
@@ -123,7 +123,7 @@
           "action": {
             "type": "uri",
             "label": "DVD",
-            "uri": "https://www.j-dowsing.com/REPLACE-中級-DVD"
+            "uri": "https://www.j-dowsing.com/e-learning/pendulum/dvd.html"
           }
         },
         {
@@ -138,7 +138,7 @@
           "action": {
             "type": "uri",
             "label": "ZOOM",
-            "uri": "https://www.j-dowsing.com/REPLACE-中級-ZOOM"
+            "uri": "https://www.j-dowsing.com/e-learning/pendulum/zoom.html"
           }
         }
       ]
