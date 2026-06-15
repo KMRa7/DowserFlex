@@ -48,7 +48,7 @@
     },
     "hero": {
       "type": "image",
-      "url": "https://cdn.jsdelivr.net/gh/KMRa7/DowserFlex@main/img/ペンデュラム講座【上級】.png",
+      "url": "https://cdn.jsdelivr.net/gh/KMRa7/DowserFlex@main/img/advanced.png",
       "size": "full",
       "aspectRatio": "16:9",
       "aspectMode": "fit"
