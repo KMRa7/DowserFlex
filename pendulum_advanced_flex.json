@@ -93,7 +93,7 @@
           "action": {
             "type": "uri",
             "label": "通学",
-            "uri": "https://www.j-dowsing.com/e-learning/pendulum/seminar.html"
+            "uri": "https://www.j-dowsing.com/e-learning/medical/seminar.html"
           }
         },
         {
@@ -108,7 +108,7 @@
           "action": {
             "type": "uri",
             "label": "オンデマンド",
-            "uri": "https://www.j-dowsing.com/e-learning/pendulum/ondemand.html"
+            "uri": "https://www.j-dowsing.com/e-learning/medical/web.html"
           }
         },
         {
@@ -123,22 +123,7 @@
           "action": {
             "type": "uri",
             "label": "DVD",
-            "uri": "https://www.j-dowsing.com/e-learning/pendulum/dvd.html"
-          }
-        },
-        {
-          "type": "separator",
-          "color": "#ECECEC"
-        },
-        {
-          "type": "button",
-          "style": "link",
-          "color": "#534AB7",
-          "height": "sm",
-          "action": {
-            "type": "uri",
-            "label": "ZOOM",
-            "uri": "https://www.j-dowsing.com/e-learning/pendulum/zoom.html"
+            "uri": "https://www.j-dowsing.com/e-learning/medical/dvd.html"
           }
         }
       ]
