@@ -1,0 +1,884 @@
+{
+  "ダウジング占い師養成講座/受講方法": {
+    "text": "★受講資格 ： 初級講座を受講済の方\n\n★初級講座を未受講の方は、\n「初級＋中級講座」\nのコース受講ができます。\n\n✅受講方法選択後にコース選択ができます",
+    "cards": [
+      {
+        "title": "ペンデュラム講座",
+        "level": "初級",
+        "detail": "「初級講座」\nのみ受講の方はこちら！",
+        "image": "",
+        "buttons": [
+          {
+            "label": "通学講座",
+            "uri": "https://www.j-dowsing.com/e-learning/pendulum/seminar.html"
+          },
+          {
+            "label": "オンデマンド講座",
+            "uri": "https://www.j-dowsing.com/e-learning/pendulum/ondemand.html"
+          },
+          {
+            "label": "DVD講座",
+            "uri": "https://www.j-dowsing.com/e-learning/pendulum/dvd.html"
+          },
+          {
+            "label": "ZOOM講座",
+            "uri": "https://www.j-dowsing.com/e-learning/pendulum/zoom.html"
+          }
+        ]
+      },
+      {
+        "title": "ダウジング占い師養成講座",
+        "level": "中級",
+        "detail": "「中級講座」\n「初級＋中級講座」\nからお選びいただけます。\n\n※コース受講は、15％割引になります！",
+        "image": "",
+        "buttons": [
+          {
+            "label": "通学講座",
+            "uri": "https://www.j-dowsing.com/e-learning/fortune/seminar.html"
+          },
+          {
+            "label": "オンデマンド講座",
+            "uri": "https://www.j-dowsing.com/e-learning/fortune/web.html"
+          },
+          {
+            "label": "DVD講座",
+            "uri": "https://www.j-dowsing.com/e-learning/fortune/dvd.html"
+          },
+          {
+            "label": "ZOOM講座",
+            "uri": "https://www.j-dowsing.com/e-learning/fortune/zoom.html"
+          }
+        ]
+      }
+    ]
+  },
+  "ヒーリングダウザー養成講座/受講方法": {
+    "text": "★受講資格 ： 中級講座を受講済の方\n\n★中級講座を未受講の方は、\n「中級＋上級講座」\nのコース受講ができます。\n\n★はじめての方は、\nヒーリングダウザー全コース\n「初級＋中級＋上級講座」\nのコース受講ができます。\n\n✅受講方法選択後にコース選択ができます",
+    "cards": [
+      {
+        "title": "ペンデュラム講座",
+        "level": "初級",
+        "detail": "「初級講座」\nのみ受講の方はこちら！",
+        "image": "",
+        "buttons": [
+          {
+            "label": "通学講座",
+            "uri": "https://www.j-dowsing.com/e-learning/pendulum/seminar.html"
+          },
+          {
+            "label": "オンデマンド講座",
+            "uri": "https://www.j-dowsing.com/e-learning/pendulum/ondemand.html"
+          },
+          {
+            "label": "DVD講座",
+            "uri": "https://www.j-dowsing.com/e-learning/pendulum/dvd.html"
+          },
+          {
+            "label": "ZOOM講座",
+            "uri": "https://www.j-dowsing.com/e-learning/pendulum/zoom.html"
+          }
+        ]
+      },
+      {
+        "title": "ダウジング講座",
+        "level": "中級",
+        "detail": "「中級講座」\n「初級＋中級講座」\nからお選びいただけます。\n\n※コース受講は、15％割引になります！",
+        "image": "",
+        "buttons": [
+          {
+            "label": "通学講座",
+            "uri": "https://www.j-dowsing.com/e-learning/pro/seminar.html"
+          },
+          {
+            "label": "オンデマンド講座",
+            "uri": "https://www.j-dowsing.com/e-learning/pro/web.html"
+          },
+          {
+            "label": "DVD講座",
+            "uri": "https://www.j-dowsing.com/e-learning/pro/dvd.html"
+          },
+          {
+            "label": "ZOOM講座",
+            "uri": "https://www.j-dowsing.com/e-learning/pro/zoom.html"
+          }
+        ]
+      },
+      {
+        "title": "ヒーリングダウザー養成講座",
+        "level": "上級",
+        "detail": "「上級講座」\n「中級＋上級講座」\n「初級＋中級＋上級講座」\nからお選びいただけます。\n\n※コース受講は、15％割引になります！",
+        "image": "",
+        "buttons": [
+          {
+            "label": "通学講座",
+            "uri": "https://www.j-dowsing.com/e-learning/medical/seminar.html"
+          },
+          {
+            "label": "オンデマンド講座",
+            "uri": "https://www.j-dowsing.com/e-learning/medical/web.html"
+          },
+          {
+            "label": "DVD講座",
+            "uri": "https://www.j-dowsing.com/e-learning/medical/dvd.html"
+          }
+        ]
+      }
+    ]
+  },
+  "スピリチュアルヒーリング講座/受講方法": {
+    "text": "★受講資格 ： 中級講座を受講済の方\n\n★初級講座を未受講の方は、\n「初級＋中級＋上級講座」\nのコース受講ができます。\n\n★中級講座を未受講の方は、\n「中級＋上級講座」\nのコース受講ができます。\n\n✅受講方法選択後にコース選択ができます。",
+    "cards": [
+      {
+        "title": "ペンデュラム講座",
+        "level": "初級",
+        "detail": "「初級講座」\nのみ受講の方はこちら！",
+        "image": "",
+        "buttons": [
+          {
+            "label": "通学講座",
+            "uri": "https://www.j-dowsing.com/e-learning/pendulum/seminar.html"
+          },
+          {
+            "label": "オンデマンド講座",
+            "uri": "https://www.j-dowsing.com/e-learning/pendulum/ondemand.html"
+          },
+          {
+            "label": "DVD講座",
+            "uri": "https://www.j-dowsing.com/e-learning/pendulum/dvd.html"
+          },
+          {
+            "label": "ZOOM講座",
+            "uri": "https://www.j-dowsing.com/e-learning/pendulum/zoom.html"
+          }
+        ]
+      },
+      {
+        "title": "ダウジング講座",
+        "level": "中級",
+        "detail": "「中級講座」\n「初級＋中級講座」\nからお選びいただけます。\n\n※コース受講は、15％割引になります！",
+        "image": "",
+        "buttons": [
+          {
+            "label": "通学講座",
+            "uri": "https://www.j-dowsing.com/e-learning/pro/seminar.html"
+          },
+          {
+            "label": "オンデマンド講座",
+            "uri": "https://www.j-dowsing.com/e-learning/pro/web.html"
+          },
+          {
+            "label": "DVD講座",
+            "uri": "https://www.j-dowsing.com/e-learning/pro/dvd.html"
+          },
+          {
+            "label": "ZOOM講座",
+            "uri": "https://www.j-dowsing.com/e-learning/pro/zoom.html"
+          }
+        ]
+      },
+      {
+        "title": "スピリチュアルヒーリング講座",
+        "level": "上級",
+        "detail": "「上級講座」\n「中級＋上級講座」\n「初級＋中級＋上級講座」\n\n※コース受講は、15％割引になります！",
+        "image": "",
+        "buttons": [
+          {
+            "label": "通学講座",
+            "uri": "https://www.j-dowsing.com/skill_up/spiritual/seminar.html"
+          },
+          {
+            "label": "オンデマンド講座",
+            "uri": "https://www.j-dowsing.com/skill_up/spiritual/web.html"
+          }
+        ]
+      }
+    ]
+  },
+  "オーラセラピー講座/受講方法": {
+    "text": "★受講資格 ： 初級講座を受講済の方\n\n★初級講座を未受講の方は、\n「初級＋単科講座」\nのコース受講ができます。\n\n✅受講方法選択後にコース選択ができます。",
+    "cards": [
+      {
+        "title": "ペンデュラム講座",
+        "level": "初級",
+        "detail": "「初級講座」\nのみ受講の方はこちら！",
+        "image": "",
+        "buttons": [
+          {
+            "label": "通学講座",
+            "uri": "https://www.j-dowsing.com/e-learning/pendulum/seminar.html"
+          },
+          {
+            "label": "オンデマンド講座",
+            "uri": "https://www.j-dowsing.com/e-learning/pendulum/ondemand.html"
+          },
+          {
+            "label": "DVD講座",
+            "uri": "https://www.j-dowsing.com/e-learning/pendulum/dvd.html"
+          },
+          {
+            "label": "ZOOM講座",
+            "uri": "https://www.j-dowsing.com/e-learning/pendulum/zoom.html"
+          }
+        ]
+      },
+      {
+        "title": "オーラセラピー講座",
+        "level": "中級",
+        "detail": "「中級講座」\n「初級＋中級講座」\nからお選びいただけます。\n\n※コース受講は、15％割引になります！",
+        "image": "",
+        "buttons": [
+          {
+            "label": "オンデマンド講座",
+            "uri": "https://www.j-dowsing.com/e-learning/pro/web.html"
+          }
+        ]
+      }
+    ]
+  },
+  "カラーヒーリングダウザー養成講座/受講方法": {
+    "text": "★受講資格：\nヒーリングダウザー養成講座（上級）を受講済の方になります。\n\n★はじめての方：\nカラーヒーリング全コース\n「初級＋中級＋上級＋上級専門講座」\nのコース受講ができます。\n\n★初級講座を受講済の方：\nカラーヒーリング中級コース\n「中級＋上級＋上級専門講座」\nのコース受講ができます。\n\n★中級講座を受講済の方：\nカラーヒーリング上級コース\n「上級＋上級専門講座」\nのコース受講ができます。\n\n✅受講方法選択後にコース選択ができます。",
+    "cards": [
+      {
+        "title": "ペンデュラム講座",
+        "level": "初級",
+        "detail": "「初級講座」\nのみ受講の方はこちら！",
+        "image": "",
+        "buttons": [
+          {
+            "label": "通学講座",
+            "uri": "https://www.j-dowsing.com/e-learning/pendulum/seminar.html"
+          },
+          {
+            "label": "オンデマンド講座",
+            "uri": "https://www.j-dowsing.com/e-learning/pendulum/ondemand.html"
+          },
+          {
+            "label": "DVD講座",
+            "uri": "https://www.j-dowsing.com/e-learning/pendulum/dvd.html"
+          },
+          {
+            "label": "ZOOM講座",
+            "uri": "https://www.j-dowsing.com/e-learning/pendulum/zoom.html"
+          }
+        ]
+      },
+      {
+        "title": "ダウジング講座",
+        "level": "中級",
+        "detail": "「中級講座」\n「初級＋中級講座」\nからお選びいただけます。\n\n※コース受講は、15％割引になります！",
+        "image": "",
+        "buttons": [
+          {
+            "label": "通学講座",
+            "uri": "https://www.j-dowsing.com/e-learning/pro/seminar.html"
+          },
+          {
+            "label": "オンデマンド講座",
+            "uri": "https://www.j-dowsing.com/e-learning/pro/web.html"
+          },
+          {
+            "label": "DVD講座",
+            "uri": "https://www.j-dowsing.com/e-learning/pro/dvd.html"
+          },
+          {
+            "label": "ZOOM講座",
+            "uri": "https://www.j-dowsing.com/e-learning/pro/zoom.html"
+          }
+        ]
+      },
+      {
+        "title": "ヒーリングダウザー養成講座",
+        "level": "上級",
+        "detail": "「上級講座」\n「中級＋上級講座」\n「初級＋中級＋上級講座」\nからお選びいただけます。\n\n※コース受講は、15％割引になります！",
+        "image": "",
+        "buttons": [
+          {
+            "label": "通学講座",
+            "uri": "https://www.j-dowsing.com/e-learning/medical/seminar.html"
+          },
+          {
+            "label": "オンデマンド講座",
+            "uri": "https://www.j-dowsing.com/e-learning/medical/web.html"
+          },
+          {
+            "label": "DVD講座",
+            "uri": "https://www.j-dowsing.com/e-learning/medical/dvd.html"
+          }
+        ]
+      },
+      {
+        "title": "カラーヒーリングダウザー養成講座",
+        "level": "上級専門",
+        "detail": "「上級専門」\n「上級＋上級専門」\n「中級＋上級＋上級専門」\n「初級＋中級＋上級＋上級専門」\nからお選びいただけます。\n\n※コース受講は、15％割引になります！",
+        "image": "",
+        "buttons": [
+          {
+            "label": "通学講座",
+            "uri": "https://www.j-dowsing.com/e-learning/colorcourse/seminar.html"
+          },
+          {
+            "label": "オンデマンド講座",
+            "uri": "https://www.j-dowsing.com/e-learning/colorcourse/web.html"
+          },
+          {
+            "label": "DVD講座",
+            "uri": "https://www.j-dowsing.com/e-learning/colorcourse/dvd.html"
+          }
+        ]
+      }
+    ]
+  },
+  "ラジオニクスオペレーター養成講座/受講方法": {
+    "text": "★受講資格：\n中級講座を受講済の方\n\n★はじめての方は、\n「初級＋中級＋上級専門講座」\nの全コース受講ができます。\n\n★ペンデュラム講座（初級）を受講済の方は、\n「中級＋上級専門講座」\nの中級コース受講ができます。\n\n✅受講方法選択後にコース選択ができます。",
+    "cards": [
+      {
+        "title": "ペンデュラム講座",
+        "level": "初級",
+        "detail": "「初級講座」\nのみ受講の方はこちら！",
+        "image": "",
+        "buttons": [
+          {
+            "label": "通学講座",
+            "uri": "https://www.j-dowsing.com/e-learning/pendulum/seminar.html"
+          },
+          {
+            "label": "オンデマンド講座",
+            "uri": "https://www.j-dowsing.com/e-learning/pendulum/ondemand.html"
+          },
+          {
+            "label": "DVD講座",
+            "uri": "https://www.j-dowsing.com/e-learning/pendulum/dvd.html"
+          },
+          {
+            "label": "ZOOM講座",
+            "uri": "https://www.j-dowsing.com/e-learning/pendulum/zoom.html"
+          }
+        ]
+      },
+      {
+        "title": "ダウジング講座",
+        "level": "中級",
+        "detail": "「中級講座」\n「初級＋中級講座」\nからお選びいただけます。\n\n※コース受講は、15％割引になります！",
+        "image": "",
+        "buttons": [
+          {
+            "label": "通学講座",
+            "uri": "https://www.j-dowsing.com/e-learning/pro/seminar.html"
+          },
+          {
+            "label": "オンデマンド講座",
+            "uri": "https://www.j-dowsing.com/e-learning/pro/web.html"
+          },
+          {
+            "label": "DVD講座",
+            "uri": "https://www.j-dowsing.com/e-learning/pro/dvd.html"
+          },
+          {
+            "label": "ZOOM講座",
+            "uri": "https://www.j-dowsing.com/e-learning/pro/zoom.html"
+          }
+        ]
+      },
+      {
+        "title": "ラジオニクスオペレーター",
+        "level": "上級専門",
+        "detail": "「上級専門」\n「中級＋上級専門」\n「初級＋中級＋上級専門」\nからお選びいただけます。\n\n※コース受講は、15％割引になります！",
+        "image": "",
+        "buttons": [
+          {
+            "label": "通学講座",
+            "uri": "https://www.j-dowsing.com/e-learning/radionics/"
+          },
+          {
+            "label": "ZOOM講座",
+            "uri": "https://www.j-dowsing.com/e-learning/radionics/"
+          }
+        ]
+      }
+    ]
+  },
+  "魔術ダウジング講座/受講方法": {
+    "text": "★受講資格：\n初級講座を受講済みの方\n\n初級講座をまだ受講されていない方は、\n事前に「ペンデュラム講座」をご受講ください。\n\nペンデュラムの基本操作やダウジングの基礎を学ぶことで、本講座の内容をより深く理解していただけます★",
+    "cards": [
+      {
+        "title": "ペンデュラム講座",
+        "level": "初級",
+        "detail": "「初級講座」\nのみ受講の方はこちら！",
+        "image": "",
+        "buttons": [
+          {
+            "label": "通学講座",
+            "uri": "https://www.j-dowsing.com/e-learning/pendulum/seminar.html"
+          },
+          {
+            "label": "オンデマンド講座",
+            "uri": "https://www.j-dowsing.com/e-learning/pendulum/ondemand.html"
+          },
+          {
+            "label": "DVD講座",
+            "uri": "https://www.j-dowsing.com/e-learning/pendulum/dvd.html"
+          },
+          {
+            "label": "ZOOM講座",
+            "uri": "https://www.j-dowsing.com/e-learning/pendulum/zoom.html"
+          }
+        ]
+      },
+      {
+        "title": "魔術ダウジング講座",
+        "level": "中級",
+        "detail": "",
+        "image": "",
+        "buttons": [
+          {
+            "label": "通学講座",
+            "uri": "https://j-dowsing.net/items/69ce3a7b5a1afd56b0443f18"
+          },
+          {
+            "label": "オンデマンド講座",
+            "uri": "https://j-dowsing.net/items/69ce3a7b5a1afd56b0443f18"
+          },
+          {
+            "label": "ZOOM講座",
+            "uri": "https://j-dowsing.net/items/69ce3a7b5a1afd56b0443f18"
+          }
+        ]
+      }
+    ]
+  },
+  "浄化・結界・エネルギーブロック講座/受講方法": {
+    "text": "★受講資格：\nどなたでも受講できます！",
+    "cards": [
+      {
+        "title": "浄化・結界・エネルギーブロック講座",
+        "level": "初級",
+        "detail": "",
+        "image": "",
+        "buttons": [
+          {
+            "label": "オンデマンド講座",
+            "uri": "https://www.j-dowsing.com/skill_up/purification/"
+          }
+        ]
+      }
+    ]
+  },
+  "地相鑑定士養成講座/受講方法": {
+    "text": "★受講資格 ： 中級講座を受講済の方\n\n★中級講座を未受講の方は、\n「中級＋上級講座」\nのコース受講ができます。\n\n★はじめての方は、\n地相鑑定士養成全コース\n「初級＋中級＋上級講座」\nのコース受講ができます。\n\n✅受講方法選択後にコース選択ができます。",
+    "cards": [
+      {
+        "title": "ペンデュラム講座",
+        "level": "初級",
+        "detail": "「初級講座」\nのみ受講の方はこちら！",
+        "image": "",
+        "buttons": [
+          {
+            "label": "通学講座",
+            "uri": "https://www.j-dowsing.com/e-learning/pendulum/seminar.html"
+          },
+          {
+            "label": "オンデマンド講座",
+            "uri": "https://www.j-dowsing.com/e-learning/pendulum/ondemand.html"
+          },
+          {
+            "label": "DVD講座",
+            "uri": "https://www.j-dowsing.com/e-learning/pendulum/dvd.html"
+          },
+          {
+            "label": "ZOOM講座",
+            "uri": "https://www.j-dowsing.com/e-learning/pendulum/zoom.html"
+          }
+        ]
+      },
+      {
+        "title": "ダウジング占い師養成講座",
+        "level": "中級",
+        "detail": "「中級講座」\n「初級＋中級講座」\nからお選びいただけます。\n\n※コース受講は、15％割引になります！",
+        "image": "",
+        "buttons": [
+          {
+            "label": "通学講座",
+            "uri": "https://www.j-dowsing.com/e-learning/fortune/seminar.html"
+          },
+          {
+            "label": "オンデマンド講座",
+            "uri": "https://www.j-dowsing.com/e-learning/fortune/web.html"
+          },
+          {
+            "label": "DVD講座",
+            "uri": "https://www.j-dowsing.com/e-learning/fortune/dvd.html"
+          },
+          {
+            "label": "ZOOM講座",
+            "uri": "https://www.j-dowsing.com/e-learning/fortune/zoom.html"
+          }
+        ]
+      },
+      {
+        "title": "地相鑑定士養成講座",
+        "level": "上級",
+        "detail": "「上級講座」\n「中級＋上級講座」\n「初級＋中級＋上級講座」\nからお選びいただけます。\n\n※コース受講は、15％割引になります！",
+        "image": "",
+        "buttons": [
+          {
+            "label": "通学講座",
+            "uri": "https://www.j-dowsing.com/e-learning/chisou/seminar.html"
+          },
+          {
+            "label": "オンデマンド講座",
+            "uri": "https://www.j-dowsing.com/e-learning/chisou/web.html"
+          },
+          {
+            "label": "DVD講座",
+            "uri": "https://www.j-dowsing.com/e-learning/chisou/dvd.html"
+          }
+        ]
+      }
+    ]
+  },
+  "ゴーストハンター養成講座/受講方法": {
+    "text": "★受講資格 ： 中級講座を受講済の方\n\n★中級講座を未受講の方は、\n「中級＋上級講座」\nのコース受講ができます。\n\n★はじめての方は、\n地相鑑定士養成全コース\n「初級＋中級＋上級講座」\nのコース受講ができます。\n\n✅受講方法選択後にコース選択ができます。",
+    "cards": [
+      {
+        "title": "ペンデュラム講座",
+        "level": "初級",
+        "detail": "「初級講座」\nのみ受講の方はこちら！",
+        "image": "",
+        "buttons": [
+          {
+            "label": "通学講座",
+            "uri": "https://www.j-dowsing.com/e-learning/pendulum/seminar.html"
+          },
+          {
+            "label": "オンデマンド講座",
+            "uri": "https://www.j-dowsing.com/e-learning/pendulum/ondemand.html"
+          },
+          {
+            "label": "DVD講座",
+            "uri": "https://www.j-dowsing.com/e-learning/pendulum/dvd.html"
+          },
+          {
+            "label": "ZOOM講座",
+            "uri": "https://www.j-dowsing.com/e-learning/pendulum/zoom.html"
+          }
+        ]
+      },
+      {
+        "title": "ダウジング占い師養成講座",
+        "level": "中級",
+        "detail": "「中級講座」\n「初級＋中級講座」\nからお選びいただけます。\n\n※コース受講は、15％割引になります！",
+        "image": "",
+        "buttons": [
+          {
+            "label": "通学講座",
+            "uri": "https://www.j-dowsing.com/e-learning/fortune/seminar.html"
+          },
+          {
+            "label": "オンデマンド講座",
+            "uri": "https://www.j-dowsing.com/e-learning/fortune/web.html"
+          },
+          {
+            "label": "DVD講座",
+            "uri": "https://www.j-dowsing.com/e-learning/fortune/dvd.html"
+          },
+          {
+            "label": "ZOOM講座",
+            "uri": "https://www.j-dowsing.com/e-learning/fortune/zoom.html"
+          }
+        ]
+      },
+      {
+        "title": "地相鑑定士養成講座",
+        "level": "上級",
+        "detail": "「上級講座」\n「中級＋上級講座」\n「初級＋中級＋上級講座」\nからお選びいただけます。\n\n※コース受講は、15％割引になります！",
+        "image": "",
+        "buttons": [
+          {
+            "label": "通学講座",
+            "uri": "https://www.j-dowsing.com/e-learning/chisou/seminar.html"
+          },
+          {
+            "label": "オンデマンド講座",
+            "uri": "https://www.j-dowsing.com/e-learning/chisou/web.html"
+          },
+          {
+            "label": "DVD講座",
+            "uri": "https://www.j-dowsing.com/e-learning/chisou/dvd.html"
+          }
+        ]
+      },
+      {
+        "title": "ゴーストハンター養成講座",
+        "level": "上級専門",
+        "detail": "「上級専門」\n「上級＋上級専門」\n「中級＋上級＋上級専門」\n「初級＋中級＋上級講座＋上級専門」\nからお選びいただけます。\n\n※コース受講は、15％割引になります！",
+        "image": "",
+        "buttons": [
+          {
+            "label": "通学講座",
+            "uri": "https://www.j-dowsing.com/e-learning/ghosthunt/"
+          },
+          {
+            "label": "ZOOM講座",
+            "uri": "https://www.j-dowsing.com/e-learning/ghosthunt/"
+          }
+        ]
+      }
+    ]
+  },
+  "電磁波対策講座/受講方法": {
+    "text": "★受講資格：\nどなたでも受講できます！",
+    "cards": [
+      {
+        "title": "電磁波対策講座",
+        "level": "初級",
+        "detail": "",
+        "image": "",
+        "buttons": [
+          {
+            "label": "オンデマンド講座",
+            "uri": "https://www.j-dowsing.com/skill_up/electromagneticwave/"
+          }
+        ]
+      }
+    ]
+  },
+  "MYタリスマン制作講座/受講方法": {
+    "text": "★受講資格：\nどなたでも受講できます！",
+    "cards": [
+      {
+        "title": "MYタリスマン製作講座",
+        "level": "中級",
+        "detail": "",
+        "image": "",
+        "buttons": [
+          {
+            "label": "オンデマンド講座",
+            "uri": "https://www.j-dowsing.com/skill_up/talisman/"
+          }
+        ]
+      }
+    ]
+  },
+  "ワンドダウジング講座/受講方法": {
+    "text": "★受講資格：\nどなたでも受講できます！",
+    "cards": [
+      {
+        "title": "ワンドダウジング講座",
+        "level": "初級",
+        "detail": "",
+        "image": "",
+        "buttons": [
+          {
+            "label": "オンデマンド講座",
+            "uri": "https://www.j-dowsing.com/skill_up/wand/"
+          }
+        ]
+      }
+    ]
+  },
+  "願望成就ダウジング講座/受講方法": {
+    "text": "★受講資格 ： \n初級講座を受講済の方\n\n★初級講座を未受講の方は、\n「初級＋単科講座」\nのコース受講ができます。\n\n✅受講方法選択後にコース選択ができます。",
+    "cards": [
+      {
+        "title": "ペンデュラム講座",
+        "level": "初級",
+        "detail": "「初級講座」\nのみ受講の方はこちら！",
+        "image": "",
+        "buttons": [
+          {
+            "label": "通学講座",
+            "uri": "https://www.j-dowsing.com/e-learning/pendulum/seminar.html"
+          },
+          {
+            "label": "オンデマンド講座",
+            "uri": "https://www.j-dowsing.com/e-learning/pendulum/ondemand.html"
+          },
+          {
+            "label": "DVD講座",
+            "uri": "https://www.j-dowsing.com/e-learning/pendulum/dvd.html"
+          },
+          {
+            "label": "ZOOM講座",
+            "uri": "https://www.j-dowsing.com/e-learning/pendulum/zoom.html"
+          }
+        ]
+      },
+      {
+        "title": "願望成就ダウジング講座",
+        "level": "中級",
+        "detail": "「単科講座」\n「初級＋単科講座」\nからお選びいただけます。\n\n※コース受講は、15％割引になります！",
+        "image": "",
+        "buttons": [
+          {
+            "label": "オンデマンド講座",
+            "uri": "https://www.j-dowsing.com/skill_up/desire/"
+          }
+        ]
+      }
+    ]
+  },
+  "ラジエスセシア実践講座/受講方法": {
+    "text": "★受講資格 ： \n初級講座を受講済の方\n\n★初級講座を未受講の方は、\n「初級＋単科講座」\nのコース受講ができます。\n\n✅受講方法選択後にコース選択ができます。",
+    "cards": [
+      {
+        "title": "ペンデュラム講座",
+        "level": "初級",
+        "detail": "「初級講座」\nのみ受講の方はこちら！",
+        "image": "",
+        "buttons": [
+          {
+            "label": "通学講座",
+            "uri": "https://www.j-dowsing.com/e-learning/pendulum/seminar.html"
+          },
+          {
+            "label": "オンデマンド講座",
+            "uri": "https://www.j-dowsing.com/e-learning/pendulum/ondemand.html"
+          },
+          {
+            "label": "DVD講座",
+            "uri": "https://www.j-dowsing.com/e-learning/pendulum/dvd.html"
+          },
+          {
+            "label": "ZOOM講座",
+            "uri": "https://www.j-dowsing.com/e-learning/pendulum/zoom.html"
+          }
+        ]
+      },
+      {
+        "title": "ラジエスセシア実践講座",
+        "level": "中級",
+        "detail": "「単科講座」\n「初級＋単科講座」\nからお選びいただけます。\n\n※コース受講は、15％割引になります！",
+        "image": "",
+        "buttons": [
+          {
+            "label": "オンデマンド講座",
+            "uri": "https://www.j-dowsing.com/skill_up/radiuscesia/"
+          }
+        ]
+      }
+    ]
+  },
+  "ジオメトリー講座/受講方法": {
+    "text": "★受講資格 ： \n初級講座を受講済の方\n\n★初級講座を未受講の方は、\n「初級＋単科講座」\nのコース受講ができます。\n\n✅受講方法選択後にコース選択ができます。",
+    "cards": [
+      {
+        "title": "ペンデュラム講座",
+        "level": "初級",
+        "detail": "「初級講座」\nのみ受講の方はこちら！",
+        "image": "",
+        "buttons": [
+          {
+            "label": "通学講座",
+            "uri": "https://www.j-dowsing.com/e-learning/pendulum/seminar.html"
+          },
+          {
+            "label": "オンデマンド講座",
+            "uri": "https://www.j-dowsing.com/e-learning/pendulum/ondemand.html"
+          },
+          {
+            "label": "DVD講座",
+            "uri": "https://www.j-dowsing.com/e-learning/pendulum/dvd.html"
+          },
+          {
+            "label": "ZOOM講座",
+            "uri": "https://www.j-dowsing.com/e-learning/pendulum/zoom.html"
+          }
+        ]
+      },
+      {
+        "title": "ジオメトリー講座",
+        "level": "中級",
+        "detail": "「単科講座」\n「初級＋単科講座」\nからお選びいただけます。\n\n※コース受講は、15％割引になります！",
+        "image": "",
+        "buttons": [
+          {
+            "label": "オンデマンド講座",
+            "uri": "https://www.j-dowsing.com/skill_up/geometry/"
+          }
+        ]
+      }
+    ]
+  },
+  "ペンデュラム講座/受講方法": {
+    "text": "★受講資格 ： \nどなたでも受講できます！\n\nダウジングの第一歩をこの講座から始めてみてください。\n\nこの講座を修了すると\n\n・ダウジング講座\n・占い師養成講座\n・ヒーリング講座\n\nなど、さらにスキルアップできます★",
+    "cards": [
+      {
+        "title": "ペンデュラム講座",
+        "level": "初級",
+        "detail": "",
+        "image": "",
+        "buttons": [
+          {
+            "label": "通学講座",
+            "uri": "https://www.j-dowsing.com/e-learning/pendulum/seminar.html"
+          },
+          {
+            "label": "オンデマンド講座",
+            "uri": "https://www.j-dowsing.com/e-learning/pendulum/ondemand.html"
+          },
+          {
+            "label": "DVD講座",
+            "uri": "https://www.j-dowsing.com/e-learning/pendulum/dvd.html"
+          },
+          {
+            "label": "ZOOM講座",
+            "uri": "https://www.j-dowsing.com/e-learning/pendulum/zoom.html"
+          }
+        ]
+      }
+    ]
+  },
+  "ダウジング講座/受講方法": {
+    "text": "★受講資格 ： \n初級講座を受講済の方\n\n★初級講座を未受講の方は、\n「初級＋中級講座」\nのコース受講ができます。\n\n✅受講方法選択後にコース選択ができます。",
+    "cards": [
+      {
+        "title": "ペンデュラム講座",
+        "level": "初級",
+        "detail": "",
+        "image": "",
+        "buttons": [
+          {
+            "label": "通学講座",
+            "uri": "https://www.j-dowsing.com/e-learning/pendulum/seminar.html"
+          },
+          {
+            "label": "オンデマンド講座",
+            "uri": "https://www.j-dowsing.com/e-learning/pendulum/ondemand.html"
+          },
+          {
+            "label": "DVD講座",
+            "uri": "https://www.j-dowsing.com/e-learning/pendulum/dvd.html"
+          },
+          {
+            "label": "ZOOM講座",
+            "uri": "https://www.j-dowsing.com/e-learning/pendulum/zoom.html"
+          }
+        ]
+      },
+      {
+        "title": "ダウジング講座",
+        "level": "中級",
+        "detail": "「中級講座」\n「初級＋中級講座」コース\nからお選びいただけます。\n\n※コース受講は、15％割引になります！",
+        "image": "",
+        "buttons": [
+          {
+            "label": "通学講座",
+            "uri": "https://www.j-dowsing.com/e-learning/pro/seminar.html"
+          },
+          {
+            "label": "オンデマンド講座",
+            "uri": "https://www.j-dowsing.com/e-learning/pro/web.html"
+          },
+          {
+            "label": "DVD講座",
+            "uri": "https://www.j-dowsing.com/e-learning/pro/dvd.html"
+          },
+          {
+            "label": "ZOOM講座",
+            "uri": "https://www.j-dowsing.com/e-learning/pro/zoom.html"
+          }
+        ]
+      }
+    ]
+  }
+}
