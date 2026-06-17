@@ -58,7 +58,7 @@ function buildBubble(card) {
   }
 
   // 本文（タイトル＋詳細）
-  bubble.body.contents.push({ type: 'text', text: card.title, color: '#1F1B33', size: 'lg', weight: 'bold' });
+  bubble.body.contents.push({ type: 'text', text: card.title, color: '#1F1B33', size: 'lg', weight: 'bold', wrap: true });
   if (card.detail) {
     bubble.body.contents.push({ type: 'text', text: card.detail, color: '#6E6A7C', size: 'sm', wrap: true, margin: 'md' });
   }
@@ -103,8 +103,15 @@ function handleEvent(event) {
   if (event.type === 'message' && event.message.type === 'text') {
     const text = event.message.text.trim();
     const course = COURSES[text];
+    console.log('received:', JSON.stringify(text), '/ match:', !!course);
     if (course) {
-      return client.replyMessage(event.replyToken, buildMessages(text, course));
+      return client
+        .replyMessage(event.replyToken, buildMessages(text, course))
+        .then(() => console.log('replied:', text))
+        .catch((e) => {
+          const data = e.originalError && e.originalError.response && e.originalError.response.data;
+          console.error('reply error:', e.statusCode, JSON.stringify(data));
+        });
     }
   }
   return Promise.resolve(null);
