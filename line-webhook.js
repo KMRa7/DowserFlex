@@ -24,10 +24,10 @@ const COURSES = JSON.parse(fs.readFileSync(path.join(__dirname, 'courses.json'),
 
 // 難易度ごとの色・英字ラベル
 const LV = {
-  '初級':     { band: '#2BAE9E', pillBg: '#FFFFFF', pillText: '#1A7F73', link: '#1A7F73', en: 'beginner' },
-  '中級':     { band: '#3F7CCB', pillBg: '#FFFFFF', pillText: '#2A5896', link: '#2A5896', en: 'intermediate' },
-  '上級':     { band: '#7F77DD', pillBg: '#FFFFFF', pillText: '#534AB7', link: '#534AB7', en: 'advanced' },
-  '上級専門': { band: '#2E2A5E', pillBg: '#C9A24B', pillText: '#2E2A5E', link: '#3C3677', en: 'specialist' },
+  '初級':     { band: '#2BAE9E', pillBg: '#FFFFFF', pillText: '#1A7F73', link: '#1A7F73', en: 'beginner',     img: 'https://raw.githubusercontent.com/KMRa7/DowserFlex/main/img/beginner.png' },
+  '中級':     { band: '#3F7CCB', pillBg: '#FFFFFF', pillText: '#2A5896', link: '#2A5896', en: 'intermediate', img: 'https://raw.githubusercontent.com/KMRa7/DowserFlex/main/img/intermediate.png' },
+  '上級':     { band: '#7F77DD', pillBg: '#FFFFFF', pillText: '#534AB7', link: '#534AB7', en: 'advanced',     img: 'https://raw.githubusercontent.com/KMRa7/DowserFlex/main/img/advanced.png' },
+  '上級専門': { band: '#2E2A5E', pillBg: '#C9A24B', pillText: '#2E2A5E', link: '#3C3677', en: 'specialist',   img: 'https://raw.githubusercontent.com/KMRa7/DowserFlex/main/img/specialist.png' },
 };
 
 function buildBubble(card) {
@@ -52,9 +52,10 @@ function buildBubble(card) {
     footer: { type: 'box', layout: 'vertical', spacing: 'none', paddingAll: '0px', contents: [] },
   };
 
-  // 画像（courses.json の image が空でなければ表示）
-  if (card.image) {
-    bubble.hero = { type: 'image', url: card.image, size: 'full', aspectRatio: '16:9', aspectMode: 'fit' };
+  // 画像（カード個別の image があればそれを、なければ難易度ごとの画像を使う）
+  const img = card.image || lv.img;
+  if (img) {
+    bubble.hero = { type: 'image', url: img, size: 'full', aspectRatio: '16:9', aspectMode: 'fit' };
   }
 
   // 本文（タイトル＋詳細）
