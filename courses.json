@@ -6,7 +6,7 @@
         "title": "ペンデュラム講座",
         "level": "初級",
         "detail": "「初級講座」\nのみ受講の方はこちら！",
-        "image": "",
+        "image": "https://raw.githubusercontent.com/KMRa7/DowserFlex/main/img/beginner.png",
         "buttons": [
           {
             "label": "通学講座",
