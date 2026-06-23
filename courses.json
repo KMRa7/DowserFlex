@@ -900,7 +900,7 @@
         "size": "giga",
         "hero": {
           "type": "image",
-          "url": "https://example.com/carousel2.png",
+          "url": "https://raw.githubusercontent.com/KMRa7/DowserFlex/main/img/carousel2.png",
           "size": "full",
           "aspectRatio": "935:1683",
           "aspectMode": "cover"
@@ -911,7 +911,7 @@
         "size": "giga",
         "hero": {
           "type": "image",
-          "url": "https://example.com/carousel3.png",
+          "url": "https://raw.githubusercontent.com/KMRa7/DowserFlex/main/img/carousel3.png",
           "size": "full",
           "aspectRatio": "935:1683",
           "aspectMode": "cover"
@@ -922,7 +922,7 @@
         "size": "giga",
         "hero": {
           "type": "image",
-          "url": "https://example.com/carousel4.png",
+          "url": "https://raw.githubusercontent.com/KMRa7/DowserFlex/main/img/carousel4.png",
           "size": "full",
           "aspectRatio": "935:1683",
           "aspectMode": "cover"
@@ -933,7 +933,7 @@
         "size": "giga",
         "hero": {
           "type": "image",
-          "url": "https://example.com/carousel5.png",
+          "url": "https://raw.githubusercontent.com/KMRa7/DowserFlex/main/img/carousel5.png",
           "size": "full",
           "aspectRatio": "935:1683",
           "aspectMode": "cover"
@@ -944,7 +944,7 @@
         "size": "giga",
         "hero": {
           "type": "image",
-          "url": "https://example.com/carousel6.png",
+          "url": "https://raw.githubusercontent.com/KMRa7/DowserFlex/main/img/carousel6.png",
           "size": "full",
           "aspectRatio": "935:1683",
           "aspectMode": "cover"
