@@ -949,6 +949,28 @@
           "aspectRatio": "935:1683",
           "aspectMode": "cover"
         }
+      },
+      {
+        "type": "bubble",
+        "size": "giga",
+        "hero": {
+          "type": "image",
+          "url": "https://raw.githubusercontent.com/KMRa7/DowserFlex/main/img/carousel7.png",
+          "size": "full",
+          "aspectRatio": "935:1683",
+          "aspectMode": "cover"
+        }
+      },
+      {
+        "type": "bubble",
+        "size": "giga",
+        "hero": {
+          "type": "image",
+          "url": "https://raw.githubusercontent.com/KMRa7/DowserFlex/main/img/carousel8.png",
+          "size": "full",
+          "aspectRatio": "935:1683",
+          "aspectMode": "cover"
+        }
       }
     ]
   }
