@@ -79,14 +79,19 @@ function buildBubble(card) {
   return bubble;
 }
 
-function buildMessages(keyword, course) {
+function buildMessages(keyword, entry) {
+  // 整形済みのFlex（type が carousel / bubble）はそのまま送る
+  if (entry && (entry.type === 'carousel' || entry.type === 'bubble')) {
+    return [{ type: 'flex', altText: keyword, contents: entry }];
+  }
+  // 講座データ（text ＋ cards）はカードを自動生成する
   const messages = [];
-  if (course.text) messages.push({ type: 'text', text: course.text });
-  if (course.cards && course.cards.length) {
+  if (entry.text) messages.push({ type: 'text', text: entry.text });
+  if (entry.cards && entry.cards.length) {
     messages.push({
       type: 'flex',
       altText: keyword,
-      contents: { type: 'carousel', contents: course.cards.map(buildBubble) },
+      contents: { type: 'carousel', contents: entry.cards.map(buildBubble) },
     });
   }
   return messages;

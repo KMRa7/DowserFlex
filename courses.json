@@ -6,7 +6,7 @@
         "title": "ペンデュラム講座",
         "level": "初級",
         "detail": "「初級講座」\nのみ受講の方はこちら！",
-        "image": "https://raw.githubusercontent.com/KMRa7/DowserFlex/main/img/beginner.png",
+        "image": "",
         "buttons": [
           {
             "label": "通学講座",
@@ -307,7 +307,7 @@
         ]
       },
       {
-        "title": "カラーヒーリングダウザー\n養成講座",
+        "title": "カラーヒーリングダウザー養成講座",
         "level": "上級専門",
         "detail": "「上級専門」\n「上級＋上級専門」\n「中級＋上級＋上級専門」\n「初級＋中級＋上級＋上級専門」\nからお選びいただけます。\n\n※コース受講は、15％割引になります！",
         "image": "",
