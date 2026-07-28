@@ -1,6 +1,10 @@
 // LINE Messaging API Webhook（データ駆動版）
 // courses.json のキーワードに一致したら、テキスト＋カード（カルーセル）を返す
 //
+// cards[] には次の2種類を混在させられます:
+//   1) { title, level, detail, image, buttons[] }  … 自動でバブルを生成
+//   2) { type: "bubble", ... }                     … 整形済みFlexをそのまま使用
+//
 // セットアップ:
 //   npm install express @line/bot-sdk
 //   この .js と courses.json を同じ場所に置く
@@ -29,6 +33,11 @@ const LV = {
   '上級':     { band: '#7F77DD', pillBg: '#FFFFFF', pillText: '#534AB7', link: '#534AB7', en: 'advanced',     img: 'https://raw.githubusercontent.com/KMRa7/DowserFlex/main/img/advanced.png' },
   '上級専門': { band: '#2E2A5E', pillBg: '#C9A24B', pillText: '#2E2A5E', link: '#3C3677', en: 'specialist',   img: 'https://raw.githubusercontent.com/KMRa7/DowserFlex/main/img/specialist.png' },
 };
+
+// 整形済みFlex（生バブル）かどうかの判定
+function isRawFlex(node) {
+  return !!node && (node.type === 'bubble' || node.type === 'carousel');
+}
 
 function buildBubble(card) {
   const lv = LV[card.level] || LV['初級'];
@@ -65,33 +74,46 @@ function buildBubble(card) {
   }
 
   // ボタン（区切り線つきリンク）
-  const sep = { type: 'separator', color: '#ECECEC' };
-  bubble.footer.contents.push(sep);
-  card.buttons.forEach((b) => {
-    bubble.footer.contents.push({
-      type: 'button', style: 'link', color: lv.link, height: 'sm',
-      action: { type: 'uri', label: b.label, uri: b.uri },
+  const buttons = card.buttons || [];
+  if (buttons.length) {
+    bubble.footer.contents.push({ type: 'separator', color: '#ECECEC' });
+    buttons.forEach((b) => {
+      bubble.footer.contents.push({
+        type: 'button', style: 'link', color: lv.link, height: 'sm',
+        action: { type: 'uri', label: b.label, uri: b.uri },
+      });
+      bubble.footer.contents.push({ type: 'separator', color: '#ECECEC' });
     });
-    bubble.footer.contents.push(sep);
-  });
-  bubble.footer.contents.pop(); // 末尾の区切り線を削除
+    bubble.footer.contents.pop(); // 末尾の区切り線を削除
+  } else {
+    delete bubble.footer; // ボタンが無い場合は footer 自体を出さない
+  }
 
   return bubble;
 }
 
+// cards[] の1要素をバブルに変換（生バブルはそのまま）
+function toBubble(card) {
+  return isRawFlex(card) ? card : buildBubble(card);
+}
+
 function buildMessages(keyword, entry) {
-  // 整形済みのFlex（type が carousel / bubble）はそのまま送る
-  if (entry && (entry.type === 'carousel' || entry.type === 'bubble')) {
+  // エントリ全体が整形済みFlexの場合はそのまま送る
+  if (isRawFlex(entry)) {
     return [{ type: 'flex', altText: keyword, contents: entry }];
   }
-  // 講座データ（text ＋ cards）はカードを自動生成する
+
   const messages = [];
   if (entry.text) messages.push({ type: 'text', text: entry.text });
+
   if (entry.cards && entry.cards.length) {
+    const bubbles = entry.cards.map(toBubble);
     messages.push({
       type: 'flex',
       altText: keyword,
-      contents: { type: 'carousel', contents: entry.cards.map(buildBubble) },
+      contents: bubbles.length === 1
+        ? bubbles[0]
+        : { type: 'carousel', contents: bubbles.slice(0, 12) }, // カルーセルは最大12件
     });
   }
   return messages;
@@ -111,8 +133,17 @@ function handleEvent(event) {
     const course = COURSES[text];
     console.log('received:', JSON.stringify(text), '/ match:', !!course);
     if (course) {
+      let messages;
+      try {
+        messages = buildMessages(text, course);
+      } catch (e) {
+        console.error('build error:', text, e);
+        return Promise.resolve(null);
+      }
+      if (!messages.length) return Promise.resolve(null);
+
       return client
-        .replyMessage(event.replyToken, buildMessages(text, course))
+        .replyMessage(event.replyToken, messages)
         .then(() => console.log('replied:', text))
         .catch((e) => {
           const data = e.originalError && e.originalError.response && e.originalError.response.data;
