@@ -3,6 +3,151 @@
     "text": "★受講資格 ： 初級講座を受講済の方\n\n★初級講座を未受講の方は、\n「初級＋中級講座」\nのコース受講ができます。\n\n✅受講方法選択後にコース選択ができます",
     "cards": [
       {
+        "type": "bubble",
+        "size": "mega",
+        "header": {
+          "type": "box",
+          "layout": "vertical",
+          "backgroundColor": "#5B3E96",
+          "paddingAll": "16px",
+          "contents": [
+            {
+              "type": "text",
+              "text": "ダウジング占い師養成講座",
+              "size": "xs",
+              "weight": "bold",
+              "color": "#D9CCF2"
+            },
+            {
+              "type": "text",
+              "text": "受講方法のご案内",
+              "size": "xl",
+              "weight": "bold",
+              "color": "#FFFFFF",
+              "margin": "sm",
+              "wrap": true
+            }
+          ]
+        },
+        "body": {
+          "type": "box",
+          "layout": "vertical",
+          "paddingAll": "16px",
+          "spacing": "md",
+          "contents": [
+            {
+              "type": "box",
+              "layout": "vertical",
+              "backgroundColor": "#F3EFFA",
+              "cornerRadius": "8px",
+              "paddingAll": "12px",
+              "spacing": "xs",
+              "contents": [
+                {
+                  "type": "text",
+                  "text": "★ 受講資格",
+                  "size": "sm",
+                  "weight": "bold",
+                  "color": "#5B3E96"
+                },
+                {
+                  "type": "text",
+                  "text": "初級講座を受講済の方",
+                  "size": "md",
+                  "weight": "bold",
+                  "color": "#333333",
+                  "wrap": true
+                }
+              ]
+            },
+            {
+              "type": "box",
+              "layout": "vertical",
+              "borderWidth": "1px",
+              "borderColor": "#E0D8F0",
+              "cornerRadius": "8px",
+              "paddingAll": "12px",
+              "spacing": "sm",
+              "contents": [
+                {
+                  "type": "text",
+                  "text": "★ 初級講座が未受講の方",
+                  "size": "sm",
+                  "weight": "bold",
+                  "color": "#5B3E96",
+                  "wrap": true
+                },
+                {
+                  "type": "box",
+                  "layout": "vertical",
+                  "backgroundColor": "#5B3E96",
+                  "cornerRadius": "6px",
+                  "paddingAll": "10px",
+                  "contents": [
+                    {
+                      "type": "text",
+                      "text": "初級 ＋ 中級講座",
+                      "size": "md",
+                      "weight": "bold",
+                      "color": "#FFFFFF",
+                      "align": "center",
+                      "wrap": true
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": "のコース受講ができます。",
+                  "size": "sm",
+                  "color": "#555555",
+                  "align": "center",
+                  "wrap": true
+                }
+              ]
+            },
+            {
+              "type": "box",
+              "layout": "horizontal",
+              "backgroundColor": "#FFF7E6",
+              "cornerRadius": "8px",
+              "paddingAll": "12px",
+              "spacing": "sm",
+              "contents": [
+                {
+                  "type": "text",
+                  "text": "✅",
+                  "size": "sm",
+                  "flex": 0
+                },
+                {
+                  "type": "text",
+                  "text": "受講方法選択後にコース選択ができます",
+                  "size": "sm",
+                  "color": "#8A6D1F",
+                  "wrap": true,
+                  "flex": 1
+                }
+              ]
+            }
+          ]
+        },
+        "footer": {
+          "type": "box",
+          "layout": "vertical",
+          "paddingAll": "12px",
+          "contents": [
+            {
+              "type": "text",
+              "text": "← スワイプして講座をお選びください →",
+              "size": "xs",
+              "color": "#999999",
+              "align": "center",
+              "wrap": true
+            }
+          ]
+        }
+      },
+      {
         "title": "ペンデュラム講座",
         "level": "初級",
         "detail": "「初級講座」\nのみ受講の方はこちら！",
