@@ -401,7 +401,6 @@
         "paddingAll": "16px",
         "spacing": "md",
         "contents": [
-
           {
             "type": "box",
             "layout": "vertical",
@@ -412,260 +411,269 @@
             "contents": [
               { "type": "text", "text": "① 受講資格", "size": "sm", "weight": "bold", "color": "#5B3E96" },
               { "type": "text", "text": "ヒーリングダウザー養成講座（上級）を受講済の方", "size": "md", "weight": "bold", "color": "#333333", "wrap": true },
-
               { "type": "separator", "margin": "md", "color": "#DCD0F0" },
               { "type": "text", "text": "▼ 受講に必要な講座", "size": "xs", "weight": "bold", "color": "#5B3E96", "margin": "md" },
-
               {
-                "type": "box",
-                "layout": "vertical",
-                "margin": "sm",
-                "spacing": "xs",
+                "type": "box", "layout": "vertical", "margin": "sm", "spacing": "xs",
                 "contents": [
                   { "type": "text", "text": "１．ペンデュラム講座（初級）", "size": "sm", "weight": "bold", "color": "#333333", "wrap": true },
-                  {
-                    "type": "text",
-                    "text": "▶ 講座内容はこちら",
-                    "size": "xs",
-                    "color": "#7B5FC0",
-                    "decoration": "underline",
-                    "wrap": true,
-                    "action": { "type": "uri", "label": "ペンデュラム講座", "uri": "https://www.j-dowsing.com/e-learning/pendulum/" }
-                  }
+                  { "type": "text", "text": "▶ 講座内容はこちら", "size": "xs", "color": "#7B5FC0", "decoration": "underline", "wrap": true,
+                    "action": { "type": "uri", "label": "ペンデュラム講座", "uri": "https://www.j-dowsing.com/e-learning/pendulum/" } }
                 ]
               },
               {
-                "type": "box",
-                "layout": "vertical",
-                "margin": "md",
-                "spacing": "xs",
+                "type": "box", "layout": "vertical", "margin": "md", "spacing": "xs",
                 "contents": [
                   { "type": "text", "text": "２．ダウジング講座（中級）", "size": "sm", "weight": "bold", "color": "#333333", "wrap": true },
-                  {
-                    "type": "text",
-                    "text": "▶ 講座内容はこちら",
-                    "size": "xs",
-                    "color": "#7B5FC0",
-                    "decoration": "underline",
-                    "wrap": true,
-                    "action": { "type": "uri", "label": "ダウジング講座", "uri": "https://www.j-dowsing.com/e-learning/pro/" }
-                  }
+                  { "type": "text", "text": "▶ 講座内容はこちら", "size": "xs", "color": "#7B5FC0", "decoration": "underline", "wrap": true,
+                    "action": { "type": "uri", "label": "ダウジング講座", "uri": "https://www.j-dowsing.com/e-learning/pro/" } }
                 ]
               },
               {
-                "type": "box",
-                "layout": "vertical",
-                "margin": "md",
-                "spacing": "xs",
+                "type": "box", "layout": "vertical", "margin": "md", "spacing": "xs",
                 "contents": [
                   { "type": "text", "text": "３．ヒーリングダウザー養成講座（上級）", "size": "sm", "weight": "bold", "color": "#333333", "wrap": true },
-                  {
-                    "type": "text",
-                    "text": "▶ 講座内容はこちら",
-                    "size": "xs",
-                    "color": "#7B5FC0",
-                    "decoration": "underline",
-                    "wrap": true,
-                    "action": { "type": "uri", "label": "ヒーリングダウザー養成講座", "uri": "https://www.j-dowsing.com/e-learning/medical/" }
-                  }
+                  { "type": "text", "text": "▶ 講座内容はこちら", "size": "xs", "color": "#7B5FC0", "decoration": "underline", "wrap": true,
+                    "action": { "type": "uri", "label": "ヒーリングダウザー養成講座", "uri": "https://www.j-dowsing.com/e-learning/medical/" } }
                 ]
               },
               {
-                "type": "box",
-                "layout": "vertical",
-                "margin": "md",
-                "spacing": "xs",
+                "type": "box", "layout": "vertical", "margin": "md", "spacing": "xs",
                 "contents": [
                   { "type": "text", "text": "４．カラーヒーリングダウザー養成講座（上級専門）", "size": "sm", "weight": "bold", "color": "#5B3E96", "wrap": true },
-                  {
-                    "type": "text",
-                    "text": "▶ 講座内容はこちら",
-                    "size": "xs",
-                    "color": "#7B5FC0",
-                    "decoration": "underline",
-                    "wrap": true,
-                    "action": { "type": "uri", "label": "カラーヒーリングダウザー養成講座", "uri": "https://www.j-dowsing.com/e-learning/colorcourse/" }
-                  }
+                  { "type": "text", "text": "▶ 講座内容はこちら", "size": "xs", "color": "#7B5FC0", "decoration": "underline", "wrap": true,
+                    "action": { "type": "uri", "label": "カラーヒーリングダウザー養成講座", "uri": "https://www.j-dowsing.com/e-learning/colorcourse/" } }
                 ]
               }
             ]
           },
-
           {
-            "type": "box",
-            "layout": "vertical",
-            "borderWidth": "1px",
-            "borderColor": "#E0D8F0",
-            "cornerRadius": "8px",
-            "paddingAll": "12px",
-            "spacing": "xs",
+            "type": "box", "layout": "vertical", "borderWidth": "1px", "borderColor": "#E0D8F0", "cornerRadius": "8px", "paddingAll": "12px", "spacing": "xs",
             "contents": [
-              { "type": "text", "text": "② 講座受講", "size": "sm", "weight": "bold", "color": "#5B3E96" },
-              { "type": "text", "text": "上記の講座を1つずつ受講する方法です。", "size": "sm", "color": "#555555", "wrap": true },
-              { "type": "text", "text": "各講座ごとに 通学 ／ オンデマンド ／ DVD からお選びいただけます。", "size": "xs", "color": "#888888", "wrap": true, "margin": "sm" }
+              { "type": "text", "text": "② 受講方法をお選びください", "size": "sm", "weight": "bold", "color": "#5B3E96" },
+              { "type": "text", "text": "通学講座 ／ オンデマンド講座 ／ DVD講座 の3つからお選びいただけます。", "size": "sm", "color": "#555555", "wrap": true }
             ]
           },
-
           {
-            "type": "box",
-            "layout": "vertical",
-            "borderWidth": "1px",
-            "borderColor": "#E0D8F0",
-            "cornerRadius": "8px",
-            "paddingAll": "12px",
-            "spacing": "sm",
+            "type": "box", "layout": "vertical", "borderWidth": "1px", "borderColor": "#E0D8F0", "cornerRadius": "8px", "paddingAll": "12px", "spacing": "xs",
             "contents": [
-              { "type": "text", "text": "③ コース受講", "size": "sm", "weight": "bold", "color": "#5B3E96" },
-              { "type": "text", "text": "未受講の講座をまとめて受講できます。", "size": "sm", "color": "#555555", "wrap": true },
-
+              { "type": "text", "text": "③ コースをお選びください", "size": "sm", "weight": "bold", "color": "#5B3E96" },
+              { "type": "text", "text": "受講済の講座に応じて、未受講分をまとめて受講できます。", "size": "sm", "color": "#555555", "wrap": true },
               {
-                "type": "box",
-                "layout": "vertical",
-                "margin": "sm",
-                "spacing": "xs",
-                "contents": [
-                  { "type": "text", "text": "◆ はじめての方", "size": "xs", "weight": "bold", "color": "#5B3E96", "wrap": true },
-                  { "type": "text", "text": "ペンデュラム講座＋ダウジング講座＋ヒーリングダウザー養成講座＋カラーヒーリングダウザー養成講座", "size": "xs", "color": "#444444", "wrap": true }
-                ]
-              },
-              {
-                "type": "box",
-                "layout": "vertical",
-                "margin": "md",
-                "spacing": "xs",
-                "contents": [
-                  { "type": "text", "text": "◆ ペンデュラム講座 受講済の方", "size": "xs", "weight": "bold", "color": "#5B3E96", "wrap": true },
-                  { "type": "text", "text": "ダウジング講座＋ヒーリングダウザー養成講座＋カラーヒーリングダウザー養成講座", "size": "xs", "color": "#444444", "wrap": true }
-                ]
-              },
-              {
-                "type": "box",
-                "layout": "vertical",
-                "margin": "md",
-                "spacing": "xs",
-                "contents": [
-                  { "type": "text", "text": "◆ ダウジング講座 受講済の方", "size": "xs", "weight": "bold", "color": "#5B3E96", "wrap": true },
-                  { "type": "text", "text": "ヒーリングダウザー養成講座＋カラーヒーリングダウザー養成講座", "size": "xs", "color": "#444444", "wrap": true }
-                ]
-              },
-
-              {
-                "type": "box",
-                "layout": "vertical",
-                "backgroundColor": "#5B3E96",
-                "cornerRadius": "6px",
-                "paddingAll": "8px",
-                "margin": "md",
+                "type": "box", "layout": "vertical", "backgroundColor": "#5B3E96", "cornerRadius": "6px", "paddingAll": "8px", "margin": "md",
                 "contents": [
                   { "type": "text", "text": "コース受講は 15％割引！", "size": "sm", "weight": "bold", "color": "#FFFFFF", "align": "center", "wrap": true }
                 ]
               }
             ]
           },
-
           {
-            "type": "box",
-            "layout": "horizontal",
-            "backgroundColor": "#FFF7E6",
-            "cornerRadius": "8px",
-            "paddingAll": "12px",
-            "spacing": "sm",
+            "type": "box", "layout": "horizontal", "backgroundColor": "#FFF7E6", "cornerRadius": "8px", "paddingAll": "12px", "spacing": "sm",
             "contents": [
               { "type": "text", "text": "✅", "size": "sm", "flex": 0 },
-              { "type": "text", "text": "受講方法選択後にコース選択ができます", "size": "sm", "color": "#8A6D1F", "wrap": true, "flex": 1 }
+              { "type": "text", "text": "受講方法を選んだあと、コースをお選びいただけます", "size": "sm", "color": "#8A6D1F", "wrap": true, "flex": 1 }
             ]
           }
         ]
       },
       "footer": {
-        "type": "box",
-        "layout": "vertical",
-        "paddingAll": "12px",
+        "type": "box", "layout": "vertical", "paddingAll": "12px",
         "contents": [
-          { "type": "text", "text": "← スワイプして講座をお選びください →", "size": "xs", "color": "#999999", "align": "center", "wrap": true }
+          { "type": "text", "text": "← スワイプして受講方法をお選びください →", "size": "xs", "color": "#999999", "align": "center", "wrap": true }
         ]
       }
     },
 
     {
-      "title": "【講座受講】ペンデュラム講座",
-      "level": "初級",
-      "detail": "ペンデュラム講座を単独で受講します。\n受講方法をお選びください。",
-      "image": "",
-      "buttons": [
-        { "label": "通学講座", "uri": "https://www.j-dowsing.com/e-learning/pendulum/seminar.html" },
-        { "label": "オンデマンド講座", "uri": "https://www.j-dowsing.com/e-learning/pendulum/ondemand.html" },
-        { "label": "DVD講座", "uri": "https://www.j-dowsing.com/e-learning/pendulum/dvd.html" },
-        { "label": "ZOOM講座", "uri": "https://www.j-dowsing.com/e-learning/pendulum/zoom.html" }
-      ]
-    },
-    {
-      "title": "【講座受講】ダウジング講座",
-      "level": "中級",
-      "detail": "ダウジング講座を単独で受講します。\n受講方法をお選びください。",
-      "image": "",
-      "buttons": [
-        { "label": "通学講座", "uri": "https://www.j-dowsing.com/e-learning/pro/seminar.html" },
-        { "label": "オンデマンド講座", "uri": "https://www.j-dowsing.com/e-learning/pro/web.html" },
-        { "label": "DVD講座", "uri": "https://www.j-dowsing.com/e-learning/pro/dvd.html" },
-        { "label": "ZOOM講座", "uri": "https://www.j-dowsing.com/e-learning/pro/zoom.html" }
-      ]
-    },
-    {
-      "title": "【講座受講】ヒーリングダウザー養成講座",
-      "level": "上級",
-      "detail": "ヒーリングダウザー養成講座を単独で受講します。\n受講方法をお選びください。",
-      "image": "",
-      "buttons": [
-        { "label": "通学講座", "uri": "https://www.j-dowsing.com/e-learning/medical/seminar.html" },
-        { "label": "オンデマンド講座", "uri": "https://www.j-dowsing.com/e-learning/medical/web.html" },
-        { "label": "DVD講座", "uri": "https://www.j-dowsing.com/e-learning/medical/dvd.html" }
-      ]
-    },
-    {
-      "title": "【講座受講】カラーヒーリングダウザー養成講座",
-      "level": "上級専門",
-      "detail": "カラーヒーリングダウザー養成講座を単独で受講します。\n受講方法をお選びください。",
-      "image": "",
-      "buttons": [
-        { "label": "通学講座", "uri": "https://www.j-dowsing.com/e-learning/colorcourse/seminar.html" },
-        { "label": "オンデマンド講座", "uri": "https://www.j-dowsing.com/e-learning/colorcourse/web.html" },
-        { "label": "DVD講座", "uri": "https://www.j-dowsing.com/e-learning/colorcourse/dvd.html" }
-      ]
+      "type": "bubble",
+      "size": "mega",
+      "header": {
+        "type": "box", "layout": "vertical", "backgroundColor": "#5B3E96", "paddingAll": "16px",
+        "contents": [
+          { "type": "text", "text": "カラーヒーリングダウザー養成講座", "size": "xs", "weight": "bold", "color": "#D9CCF2", "wrap": true },
+          { "type": "text", "text": "通学講座", "size": "xxl", "weight": "bold", "color": "#FFFFFF", "margin": "sm", "wrap": true },
+          { "type": "text", "text": "教室で直接学びたい方へ", "size": "xs", "color": "#D9CCF2", "margin": "sm", "wrap": true }
+        ]
+      },
+      "body": {
+        "type": "box", "layout": "vertical", "paddingAll": "16px", "spacing": "md",
+        "contents": [
+          {
+            "type": "box", "layout": "vertical", "backgroundColor": "#F3EFFA", "cornerRadius": "8px", "paddingAll": "12px", "spacing": "xs",
+            "contents": [
+              { "type": "text", "text": "はじめての方はこちら", "size": "xs", "weight": "bold", "color": "#5B3E96", "wrap": true },
+              { "type": "text", "text": "カラーヒーリングダウザー全コース", "size": "md", "weight": "bold", "color": "#333333", "wrap": true },
+              { "type": "text", "text": "（初級＋中級＋上級＋上級専門）", "size": "xs", "color": "#666666", "wrap": true },
+              { "type": "text", "text": "講座に申込む　＞", "size": "sm", "weight": "bold", "color": "#7B5FC0", "decoration": "underline", "align": "end", "margin": "sm", "wrap": true,
+                "action": { "type": "uri", "label": "全コースに申込む", "uri": "https://j-dowsing.net/items/666c1bfb30aa3d02596af391" } }
+            ]
+          },
+          {
+            "type": "box", "layout": "vertical", "backgroundColor": "#F3EFFA", "cornerRadius": "8px", "paddingAll": "12px", "spacing": "xs",
+            "contents": [
+              { "type": "text", "text": "ペンデュラム講座 受講済の方", "size": "xs", "weight": "bold", "color": "#5B3E96", "wrap": true },
+              { "type": "text", "text": "カラーヒーリングダウザー中級コース", "size": "md", "weight": "bold", "color": "#333333", "wrap": true },
+              { "type": "text", "text": "（中級＋上級＋上級専門）", "size": "xs", "color": "#666666", "wrap": true },
+              { "type": "text", "text": "講座に申込む　＞", "size": "sm", "weight": "bold", "color": "#7B5FC0", "decoration": "underline", "align": "end", "margin": "sm", "wrap": true,
+                "action": { "type": "uri", "label": "中級コースに申込む", "uri": "https://j-dowsing.net/items/666c1c273cea4a021ad69451" } }
+            ]
+          },
+          {
+            "type": "box", "layout": "vertical", "backgroundColor": "#F3EFFA", "cornerRadius": "8px", "paddingAll": "12px", "spacing": "xs",
+            "contents": [
+              { "type": "text", "text": "ダウジング講座 受講済の方", "size": "xs", "weight": "bold", "color": "#5B3E96", "wrap": true },
+              { "type": "text", "text": "カラーヒーリングダウザー上級コース", "size": "md", "weight": "bold", "color": "#333333", "wrap": true },
+              { "type": "text", "text": "（上級＋上級専門）", "size": "xs", "color": "#666666", "wrap": true },
+              { "type": "text", "text": "講座に申込む　＞", "size": "sm", "weight": "bold", "color": "#7B5FC0", "decoration": "underline", "align": "end", "margin": "sm", "wrap": true,
+                "action": { "type": "uri", "label": "上級コースに申込む", "uri": "https://j-dowsing.net/items/666c1c50f00a1f01f28c915c" } }
+            ]
+          },
+          {
+            "type": "box", "layout": "vertical", "backgroundColor": "#EDE5FA", "cornerRadius": "8px", "paddingAll": "12px", "spacing": "xs",
+            "contents": [
+              { "type": "text", "text": "ヒーリングダウザー 受講済の方", "size": "xs", "weight": "bold", "color": "#5B3E96", "wrap": true },
+              { "type": "text", "text": "カラーヒーリングダウザー養成講座", "size": "md", "weight": "bold", "color": "#333333", "wrap": true },
+              { "type": "text", "text": "（上級専門）", "size": "xs", "color": "#666666", "wrap": true },
+              { "type": "text", "text": "講座に申込む　＞", "size": "sm", "weight": "bold", "color": "#7B5FC0", "decoration": "underline", "align": "end", "margin": "sm", "wrap": true,
+                "action": { "type": "uri", "label": "上級専門に申込む", "uri": "https://j-dowsing.net/items/666c1c6e471cb301b725f49c" } }
+            ]
+          }
+        ]
+      },
+      "footer": {
+        "type": "box", "layout": "vertical", "paddingAll": "12px",
+        "contents": [
+          { "type": "text", "text": "← 他の受講方法もご覧いただけます →", "size": "xs", "color": "#999999", "align": "center", "wrap": true }
+        ]
+      }
     },
 
     {
-      "title": "【コース受講】カラーヒーリング全コース",
-      "level": "はじめての方",
-      "detail": "ペンデュラム講座\n＋ダウジング講座\n＋ヒーリングダウザー養成講座\n＋カラーヒーリングダウザー養成講座\n\n※15％割引\n※受講方法選択後にコース選択ができます",
-      "image": "",
-      "buttons": [
-        { "label": "通学講座", "uri": "https://www.j-dowsing.com/e-learning/colorcourse/seminar.html" },
-        { "label": "オンデマンド講座", "uri": "https://www.j-dowsing.com/e-learning/colorcourse/web.html" },
-        { "label": "DVD講座", "uri": "https://www.j-dowsing.com/e-learning/colorcourse/dvd.html" }
-      ]
+      "type": "bubble",
+      "size": "mega",
+      "header": {
+        "type": "box", "layout": "vertical", "backgroundColor": "#3E7A96", "paddingAll": "16px",
+        "contents": [
+          { "type": "text", "text": "カラーヒーリングダウザー養成講座", "size": "xs", "weight": "bold", "color": "#CCE6F2", "wrap": true },
+          { "type": "text", "text": "オンデマンド講座", "size": "xxl", "weight": "bold", "color": "#FFFFFF", "margin": "sm", "wrap": true },
+          { "type": "text", "text": "動画でいつでも学びたい方へ", "size": "xs", "color": "#CCE6F2", "margin": "sm", "wrap": true }
+        ]
+      },
+      "body": {
+        "type": "box", "layout": "vertical", "paddingAll": "16px", "spacing": "md",
+        "contents": [
+          {
+            "type": "box", "layout": "vertical", "backgroundColor": "#EEF6FA", "cornerRadius": "8px", "paddingAll": "12px", "spacing": "xs",
+            "contents": [
+              { "type": "text", "text": "はじめての方はこちら", "size": "xs", "weight": "bold", "color": "#3E7A96", "wrap": true },
+              { "type": "text", "text": "カラーヒーリングダウザー全コース", "size": "md", "weight": "bold", "color": "#333333", "wrap": true },
+              { "type": "text", "text": "（初級＋中級＋上級＋上級専門）", "size": "xs", "color": "#666666", "wrap": true },
+              { "type": "text", "text": "講座に申込む　＞", "size": "sm", "weight": "bold", "color": "#3E7A96", "decoration": "underline", "align": "end", "margin": "sm", "wrap": true,
+                "action": { "type": "uri", "label": "全コースに申込む", "uri": "https://j-dowsing.net/items/57d12ee7a458c0351d001852" } }
+            ]
+          },
+          {
+            "type": "box", "layout": "vertical", "backgroundColor": "#EEF6FA", "cornerRadius": "8px", "paddingAll": "12px", "spacing": "xs",
+            "contents": [
+              { "type": "text", "text": "ペンデュラム講座 受講済の方", "size": "xs", "weight": "bold", "color": "#3E7A96", "wrap": true },
+              { "type": "text", "text": "カラーヒーリングダウザー中級コース", "size": "md", "weight": "bold", "color": "#333333", "wrap": true },
+              { "type": "text", "text": "（中級＋上級＋上級専門）", "size": "xs", "color": "#666666", "wrap": true },
+              { "type": "text", "text": "講座に申込む　＞", "size": "sm", "weight": "bold", "color": "#3E7A96", "decoration": "underline", "align": "end", "margin": "sm", "wrap": true,
+                "action": { "type": "uri", "label": "中級コースに申込む", "uri": "https://j-dowsing.net/items/5dcb8a76a3423d097ab70b1d" } }
+            ]
+          },
+          {
+            "type": "box", "layout": "vertical", "backgroundColor": "#EEF6FA", "cornerRadius": "8px", "paddingAll": "12px", "spacing": "xs",
+            "contents": [
+              { "type": "text", "text": "ダウジング講座 受講済の方", "size": "xs", "weight": "bold", "color": "#3E7A96", "wrap": true },
+              { "type": "text", "text": "カラーヒーリングダウザー上級コース", "size": "md", "weight": "bold", "color": "#333333", "wrap": true },
+              { "type": "text", "text": "（上級＋上級専門）", "size": "xs", "color": "#666666", "wrap": true },
+              { "type": "text", "text": "講座に申込む　＞", "size": "sm", "weight": "bold", "color": "#3E7A96", "decoration": "underline", "align": "end", "margin": "sm", "wrap": true,
+                "action": { "type": "uri", "label": "上級コースに申込む", "uri": "https://j-dowsing.net/items/5dcb8aa963794469fc38842e" } }
+            ]
+          },
+          {
+            "type": "box", "layout": "vertical", "backgroundColor": "#E2F0F7", "cornerRadius": "8px", "paddingAll": "12px", "spacing": "xs",
+            "contents": [
+              { "type": "text", "text": "ヒーリングダウザー 受講済の方", "size": "xs", "weight": "bold", "color": "#3E7A96", "wrap": true },
+              { "type": "text", "text": "カラーヒーリングダウザー講座", "size": "md", "weight": "bold", "color": "#333333", "wrap": true },
+              { "type": "text", "text": "（上級専門）", "size": "xs", "color": "#666666", "wrap": true },
+              { "type": "text", "text": "講座に申込む　＞", "size": "sm", "weight": "bold", "color": "#3E7A96", "decoration": "underline", "align": "end", "margin": "sm", "wrap": true,
+                "action": { "type": "uri", "label": "上級専門に申込む", "uri": "https://j-dowsing.net/items/57d10113a458c04d60001760" } }
+            ]
+          }
+        ]
+      },
+      "footer": {
+        "type": "box", "layout": "vertical", "paddingAll": "12px",
+        "contents": [
+          { "type": "text", "text": "← 他の受講方法もご覧いただけます →", "size": "xs", "color": "#999999", "align": "center", "wrap": true }
+        ]
+      }
     },
+
     {
-      "title": "【コース受講】カラーヒーリング中級コース",
-      "level": "ペンデュラム講座 受講済の方",
-      "detail": "ダウジング講座\n＋ヒーリングダウザー養成講座\n＋カラーヒーリングダウザー養成講座\n\n※15％割引\n※受講方法選択後にコース選択ができます",
-      "image": "",
-      "buttons": [
-        { "label": "通学講座", "uri": "https://www.j-dowsing.com/e-learning/colorcourse/seminar.html" },
-        { "label": "オンデマンド講座", "uri": "https://www.j-dowsing.com/e-learning/colorcourse/web.html" },
-        { "label": "DVD講座", "uri": "https://www.j-dowsing.com/e-learning/colorcourse/dvd.html" }
-      ]
-    },
-    {
-      "title": "【コース受講】カラーヒーリング上級コース",
-      "level": "ダウジング講座 受講済の方",
-      "detail": "ヒーリングダウザー養成講座\n＋カラーヒーリングダウザー養成講座\n\n※15％割引\n※受講方法選択後にコース選択ができます",
-      "image": "",
-      "buttons": [
-        { "label": "通学講座", "uri": "https://www.j-dowsing.com/e-learning/colorcourse/seminar.html" },
-        { "label": "オンデマンド講座", "uri": "https://www.j-dowsing.com/e-learning/colorcourse/web.html" },
-        { "label": "DVD講座", "uri": "https://www.j-dowsing.com/e-learning/colorcourse/dvd.html" }
-      ]
+      "type": "bubble",
+      "size": "mega",
+      "header": {
+        "type": "box", "layout": "vertical", "backgroundColor": "#96603E", "paddingAll": "16px",
+        "contents": [
+          { "type": "text", "text": "カラーヒーリングダウザー養成講座", "size": "xs", "weight": "bold", "color": "#F2E0CC", "wrap": true },
+          { "type": "text", "text": "DVD講座", "size": "xxl", "weight": "bold", "color": "#FFFFFF", "margin": "sm", "wrap": true },
+          { "type": "text", "text": "教材を手元に置いて学びたい方へ", "size": "xs", "color": "#F2E0CC", "margin": "sm", "wrap": true }
+        ]
+      },
+      "body": {
+        "type": "box", "layout": "vertical", "paddingAll": "16px", "spacing": "md",
+        "contents": [
+          {
+            "type": "box", "layout": "vertical", "backgroundColor": "#FAF3EE", "cornerRadius": "8px", "paddingAll": "12px", "spacing": "xs",
+            "contents": [
+              { "type": "text", "text": "はじめての方はこちら", "size": "xs", "weight": "bold", "color": "#96603E", "wrap": true },
+              { "type": "text", "text": "カラーヒーリングダウザー全コース", "size": "md", "weight": "bold", "color": "#333333", "wrap": true },
+              { "type": "text", "text": "（初級＋中級＋上級＋上級専門）", "size": "xs", "color": "#666666", "wrap": true },
+              { "type": "text", "text": "受講申込はコチラから　▶▶▶", "size": "sm", "weight": "bold", "color": "#96603E", "decoration": "underline", "align": "end", "margin": "sm", "wrap": true,
+                "action": { "type": "uri", "label": "全コースに申込む", "uri": "https://j-dowsing.net/items/57d12ee7a458c0351d001852" } }
+            ]
+          },
+          {
+            "type": "box", "layout": "vertical", "backgroundColor": "#FAF3EE", "cornerRadius": "8px", "paddingAll": "12px", "spacing": "xs",
+            "contents": [
+              { "type": "text", "text": "ペンデュラム講座 受講済の方", "size": "xs", "weight": "bold", "color": "#96603E", "wrap": true },
+              { "type": "text", "text": "カラーヒーリングダウザー中級コース", "size": "md", "weight": "bold", "color": "#333333", "wrap": true },
+              { "type": "text", "text": "（中級＋上級＋上級専門）", "size": "xs", "color": "#666666", "wrap": true },
+              { "type": "text", "text": "受講申込はコチラから　▶▶▶", "size": "sm", "weight": "bold", "color": "#96603E", "decoration": "underline", "align": "end", "margin": "sm", "wrap": true,
+                "action": { "type": "uri", "label": "中級コースに申込む", "uri": "https://j-dowsing.net/items/5dcb8a76a3423d097ab70b1d" } }
+            ]
+          },
+          {
+            "type": "box", "layout": "vertical", "backgroundColor": "#FAF3EE", "cornerRadius": "8px", "paddingAll": "12px", "spacing": "xs",
+            "contents": [
+              { "type": "text", "text": "ダウジング講座 受講済の方", "size": "xs", "weight": "bold", "color": "#96603E", "wrap": true },
+              { "type": "text", "text": "カラーヒーリングダウザー上級コース", "size": "md", "weight": "bold", "color": "#333333", "wrap": true },
+              { "type": "text", "text": "（上級＋上級専門）", "size": "xs", "color": "#666666", "wrap": true },
+              { "type": "text", "text": "受講申込はコチラから　▶▶▶", "size": "sm", "weight": "bold", "color": "#96603E", "decoration": "underline", "align": "end", "margin": "sm", "wrap": true,
+                "action": { "type": "uri", "label": "上級コースに申込む", "uri": "https://j-dowsing.net/items/5dcb8aa963794469fc38842e" } }
+            ]
+          },
+          {
+            "type": "box", "layout": "vertical", "backgroundColor": "#F5E9DE", "cornerRadius": "8px", "paddingAll": "12px", "spacing": "xs",
+            "contents": [
+              { "type": "text", "text": "ヒーリングダウザー 受講済の方", "size": "xs", "weight": "bold", "color": "#96603E", "wrap": true },
+              { "type": "text", "text": "カラーヒーリングダウザー講座", "size": "md", "weight": "bold", "color": "#333333", "wrap": true },
+              { "type": "text", "text": "（上級専門）", "size": "xs", "color": "#666666", "wrap": true },
+              { "type": "text", "text": "受講申込はコチラから　▶▶▶", "size": "sm", "weight": "bold", "color": "#96603E", "decoration": "underline", "align": "end", "margin": "sm", "wrap": true,
+                "action": { "type": "uri", "label": "上級専門に申込む", "uri": "https://j-dowsing.net/items/57d10113a458c04d60001760" } }
+            ]
+          }
+        ]
+      },
+      "footer": {
+        "type": "box", "layout": "vertical", "paddingAll": "12px",
+        "contents": [
+          { "type": "text", "text": "← 他の受講方法もご覧いただけます →", "size": "xs", "color": "#999999", "align": "center", "wrap": true }
+        ]
+      }
     }
   ]
 },
