@@ -5,6 +5,8 @@
 //   1) { title, level, detail, image, buttons[] }  … 自動でバブルを生成
 //   2) { type: "bubble", ... }                     … 整形済みFlexをそのまま使用
 //
+// courses.json は更新時刻を監視して自動で読み直します（再起動不要）
+//
 // セットアップ:
 //   npm install express @line/bot-sdk
 //   この .js と courses.json を同じ場所に置く
@@ -24,7 +26,36 @@ const config = {
 const client = new line.Client(config);
 const app = express();
 
-const COURSES = JSON.parse(fs.readFileSync(path.join(__dirname, 'courses.json'), 'utf8'));
+// ---------------------------------------------------------------------------
+// courses.json の読み込み（更新時刻が変わっていたら読み直す）
+// ---------------------------------------------------------------------------
+const COURSES_PATH = path.join(__dirname, 'courses.json');
+let COURSES = {};
+let coursesMtime = 0;
+
+function loadCourses(force = false) {
+  try {
+    const mtime = fs.statSync(COURSES_PATH).mtimeMs;
+    if (!force && mtime === coursesMtime) return;
+
+    const parsed = JSON.parse(fs.readFileSync(COURSES_PATH, 'utf8'));
+    COURSES = parsed;
+    coursesMtime = mtime;
+    console.log(`[courses] reloaded: ${Object.keys(COURSES).length} keys`);
+  } catch (e) {
+    // 構文エラー等の場合は直前のデータを保持したまま動き続ける
+    console.error('[courses] load error:', e.message);
+  }
+}
+
+loadCourses(true);
+if (!Object.keys(COURSES).length) {
+  console.warn('[courses] 起動時に読み込めていません。courses.json を確認してください。');
+}
+
+// ---------------------------------------------------------------------------
+// Flex 組み立て
+// ---------------------------------------------------------------------------
 
 // 難易度ごとの色・英字ラベル
 const LV = {
@@ -119,9 +150,23 @@ function buildMessages(keyword, entry) {
   return messages;
 }
 
+// ---------------------------------------------------------------------------
+// ルーティング
+// ---------------------------------------------------------------------------
+
 app.get('/', (req, res) => res.send('OK'));
 
+// 動作確認用: 読み込み状況をブラウザから確認できる
+app.get('/status', (req, res) => {
+  loadCourses();
+  res.json({
+    keys: Object.keys(COURSES).length,
+    updatedAt: coursesMtime ? new Date(coursesMtime).toISOString() : null,
+  });
+});
+
 app.post('/webhook', line.middleware(config), (req, res) => {
+  loadCourses(); // 受信のたびに更新チェック（変化が無ければ何もしない）
   Promise.all(req.body.events.map(handleEvent))
     .then((result) => res.json(result))
     .catch((err) => { console.error(err); res.status(500).end(); });
